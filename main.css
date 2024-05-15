@@ -10,7 +10,7 @@ body{
 header{
     background-color: rgb(164, 47, 90);
     color: white;
-    background-image: url(../images/background2.JPG);
+    background-image: url(images/background2.JPG);
     background-size: contain;
 }
 
@@ -52,7 +52,7 @@ main p {
     height: 350px;
     text-align: center;
     margin: 3rem;
-    background-image: url(../images/background3.JPG);
+    background-image: url(images/background3.JPG);
     background-repeat: no-repeat;
     background-position: center;
 }
