@@ -1,0 +1,93 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    font-family:"Roboto", sans-serif;
+}
+
+header{
+    background-color: rgb(164, 47, 90);
+    color: white;
+    background-image: url(../images/background2.JPG);
+    background-size: contain;
+}
+
+.name{
+    text-transform: uppercase
+}
+
+.name_2{
+    text-align: center
+}
+
+.container{
+    max-width: 75%;
+    margin: auto;
+}
+
+.navigator{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0 /*Внутренний отступ, первая цифра - отступ сверху и снизу, вторая слева и справа*/ ; 
+}
+
+.navigator a{ /*стиль примениться ко всем ссылкам которые находятся внутри блока с классом navigator*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+
+.navigator a:hover{ /*Меняет цвет при наведении курсора мыши*/
+    transition: color 0.5s; /*Время анимации*/
+    color: rgb(27, 0, 235);
+}
+
+main p {
+    text-align: justify;
+}
+
+.avatar{
+    height: 350px;
+    text-align: center;
+    margin: 3rem;
+    background-image: url(../images/background3.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.avatar img{
+    height: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    color: rgb(238, 12, 155);
+    font-weight: bold;
+    border: 2px solid rgb(238, 12, 155);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact_btn{
+    color: white;
+    border-color: white;
+    font-size: 1.2rem;
+    display: inline-block; /*Чтобы кнопка не наползала, строчный элемент а преобразовывается в блочный*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn_2{
+    display: inline-block;
+    margin-top: 0,5rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: rgb(241, 41, 131);
+    color: white;
+    padding: 40px 0;
+    margin-top: 2rem;
+}
